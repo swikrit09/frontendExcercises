@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: content-box;
+     
+}
+#logo{
+    background-color: rgb(48, 48, 48);
+    padding: 11px;
+}
+
+#atoz{
+    background-color:#CC0000;
+}
+#atoz2{
+    color: white; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;font-size: 18px;
+}
+#pagal{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+#search{
+    width: 870px;
+    height: 21px;
+    margin: 10px;
+    padding: 5px;
+}
+#head{
+    padding: 00px 150px;
+}
+.content{
+    padding: 0px 150px;
+}
+.search_lens{
+   
+    width: 90px;
+    margin:10px auto;
+    background-color: #4d90fe;
+    padding: 3px;
+}
+.searchimg{
+    width: 20px;
+    height: 20px;
+}
+html,body{font-family:fira sans,sans-serif;margin:0;padding:0;overflow-x:hidden;max-width:100%;width:100%}
+
+.quick_links {
+    display: block ;
+    text-align: center;
+    background-color: #33383b;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.fafa{
+    color:white;
+    padding: 0px 80px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.faf{
+    color:white;
+    padding: 0px 60px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.updates{
+    background-color: rgb(42,42,42);
+    padding: 7px 7px 7px 20px;
+    color: #ffff;
+}
+#viewall{
+    color: #ffff;
+    background-color: #F44336;
+    padding: 7px 7px 7px 20px;
+    display: flex;
+    max-width: none;
+    justify-content: right;
+    
+    
+
+}

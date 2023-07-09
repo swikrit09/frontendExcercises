@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bgimage{
+   
+    background-size:cover;
+    background-position: center;
+    height: 115vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),url(images/bgimg.jpg);
+    object-fit: cover;
+}
+#logo{
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    height: 85px;
+    width: 150px;
+    margin: 5px 50px;
+}
+#lang{
+    position: absolute;
+    margin-left: 1080px;
+    top: 27px;
+    padding: 5px 12px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid;
+    font-size: 17px;
+}
+.langoptn{
+    background-color: grey;
+}
+#login{
+    position: absolute;
+    margin-left: 1210px;
+    top: 27px;
+    padding: 5px 15px;
+    font-size: 19px;
+    color: whitesmoke;
+    background-color: #E50914;
+    border: none;
+    border-radius: 3px;
+    
+}
+.mid{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: white;
+    text-align: center;
+    top: 230px;
+    
+    
+}
+#text1{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#text2{
+    margin: 23px 155px 29px;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#text3{
+    padding: 0 47.5px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#emailbox{
+    padding: 10px 10px ;
+    width: 545px;
+    height: 35px;
+    font-size: 17px;
+}
+#getstarted{
+    position: sticky;
+    padding: 14px 27px ;
+    font-size: 25px;
+    color: white;
+    background-color: #E50914;
+    border: none;
+}
+
+.line{
+    color: rgba(44, 44, 44, 0.342);
+    padding: 3px;
+}
+/* ENJOY */
+
+
+.Enjoy{
+    display: flex;
+    background-color: black;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.enjoy_text{
+    flex-basis: 50%;
+    color: #fff;
+    padding-left:120px ;
+}
+#enjoyHeadTXT{
+    font-size: 50px;
+    /* text-align: center; */
+}
+#enjoyParaTXT{
+    font-size: 25px;
+    
+    padding-top: 15px;
+}
+

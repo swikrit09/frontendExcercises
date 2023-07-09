@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.navlink{
+    display: flex;
+    gap: 30px;
+}
+#products{
+    color: gray;
+    font-weight: bold;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 70px;
+    height: 30px;
+    border-radius: 17px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+span{
+    color: rgb(255, 79, 15);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    color: rgb(44, 44, 44);
+}
+.card1,.card2,.card3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardimg{
+    padding-bottom: 50px;
+}
+.cardtxt{
+    padding-bottom: 10px;
+}
+.cardbtn{
+    width: 130PX;
+     margin: 50px 80px; 
+    /* align-self: center;
+    padding: 10px 20px; */
+}

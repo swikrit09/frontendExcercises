@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bg_image{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background:linear-gradient(#000000b2,#00000060,#000000b2), url("https://tinder.com/static/build/8ad4e4299ef5e377d2ef00ba5c94c44c.webp") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+
+}
+#tinder-logo{
+    position: absolute;
+    /* top: 25px; */
+    left: 20px;
+    width: 120px;
+    /* height: 35px;     */
+}
+
+.navleft{
+    position: absolute;
+    top: 35px;
+    left: 160px;
+}
+.navright{
+    position: absolute;
+    top: 20px;
+    left: 870px;
+}
+.goto{
+    color: white;
+    /* background-color: black; */
+    font-size: 20px;
+    padding: 5px;
+    margin: 8px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.goto:hover{
+    color: rgb(252, 49, 133);
+    text-decoration: underline;
+}
+#login{
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px 25px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+.create_acc{
+    position: relative;
+    top: 225px;
+    left: 175px;
+}
+.mid{
+    font-size: 60px;
+    /* color: rgb(219, 0, 37); */
+    color: rgb(230, 230, 230);
+    max-width: max-content;
+    padding: 0px 6px;
+}
+#create_acc_btn{
+    position: relative;
+    top: 30px;
+    left: 250px;
+    padding: 12px 30px;
+    color: white;
+    background-color:rgb(255, 31, 69) ;
+    border-radius: 30px;
+    font-size: 12px;
+    border: none;
+}
